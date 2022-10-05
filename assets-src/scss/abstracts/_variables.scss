@@ -1,0 +1,36 @@
+// Colors
+
+$brownishOrange:	rgb(217, 99, 33);
+$sand:				rgb(207, 224, 98);
+$black:         	rgb(0, 0, 0);
+$white:         	rgb(255, 255, 255);
+$murkyGreen:    	rgb(111, 126, 13);
+
+// Fonts
+
+$font-family-base:	'apercuregular', sans-serif;
+$font-family-fa:	"Font Awesome 6 Free";
+
+// Grid breakpoints
+
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+$screen-xx-min: 1600px;
+
+// Grid containers
+
+$screen-xs-max: 575px;
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-lg-max: 1199px;
+$screen-xl-max: 1599px;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xx: 1440px,
+);

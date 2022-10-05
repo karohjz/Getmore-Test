@@ -1,0 +1,16 @@
+// container made for all views
+
+@mixin make-container() {
+
+    position: relative;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media( min-width: $screen-sm-min ) { max-width: get-max-container( 'sm' ); }
+    @media( min-width: $screen-md-min ) { max-width: get-max-container( 'md' ); }
+    @media( min-width: $screen-lg-min ) { max-width: get-max-container( 'lg' ); }
+    @media( min-width: $screen-xl-min ) { max-width: get-max-container( 'xl' ); }
+    @media( min-width: $screen-xx-min ) { max-width: get-max-container( 'xx' ); }
+	
+}

@@ -1,0 +1,14 @@
+@import 'abstracts/functions';
+@import 'abstracts/fonts';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+
+@import 'vendors/swiper';
+
+@import 'layout/global';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+// @import 'pages/content';

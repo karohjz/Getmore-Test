@@ -1,0 +1,39 @@
+{
+    "name": "understrap-child",
+    "version": "1.0.0",
+    "private": true,
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "@fortawesome/fontawesome-free": "^6.2.0",
+        "autoprefixer": "^9.8.0",
+        "cssnano": "^4.1.10",
+        "del": "^5.1.0",
+        "fg-loadcss": "^3.1.0",
+        "gulp": "^4.0.2",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2",
+        "merge-stream": "^2.0.0",
+        "node-sass": "^4.14.1",
+        "through2": "^3.0.1"
+    },
+    "browserslist": [
+        ">= 1%",
+        "last 1 major version",
+        "not dead",
+        "Chrome >= 45",
+        "Firefox >= 38",
+        "Edge >= 12",
+        "Explorer >= 10",
+        "iOS >= 9",
+        "Safari >= 9",
+        "Android >= 4.4",
+        "Opera >= 30"
+    ],
+    "dependencies": {
+        "swiper": "^8.4.2"
+    }
+}

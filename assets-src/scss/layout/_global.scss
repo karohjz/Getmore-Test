@@ -1,0 +1,42 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: $font-family-base;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	// &:hover {}
+}
+
+.btn {
+	transition: background-color 0.3s ease, color 0.3s ease;
+	display: inline-block;
+	min-width: 240px;
+	border-radius: 60px;
+	padding: 14px 40px;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+
+	@media( min-width: $screen-sm-min ) {
+		min-width: 272px;
+		padding: 20px 40px;
+	}
+
+	&-orange {
+		background-color: $brownishOrange;
+		color: $white;
+
+		&:hover { background-color: darken($brownishOrange, 10%); }
+	}
+}
+
+.container {
+	@include make-container();
+}

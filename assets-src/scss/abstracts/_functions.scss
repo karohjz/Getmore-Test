@@ -1,0 +1,9 @@
+// ----------------------------------------------
+// Functions
+// ----------------------------------------------
+
+@function get-max-container( $key: "sm" ) {
+
+    @return map-get( $container-max-widths, $key );
+
+}
