@@ -1,119 +1,72 @@
-#wrapper-header {
+#shopify-section-announcement-bar {
+    .announcement-bar {
+        border-bottom: none;
+        font-size: 15px;
+
+        .h5 {
+            padding: 9px 0;
+            font-size: inherit;
+        }
+    }
+}
+
+#shopify-section-header {
     position: absolute;
     top: 0;
     right: 0; left: 0;
+    padding-top: 35px;
 
-    #top-bar {
-        padding: 9px 0;
-        background-color: $sand;
-        text-align: center;
-        color: $murkyGreen;
+    .header-wrapper {
+        border-bottom: none;
+        background-color: transparent;
+        color: $white;
 
-        p {
-            margin: 0;
-            line-height: 1;
+        .header__menu-item {
+            font-size: 15px;
+            color: inherit;
+
+            .icon-caret { width: 11px; }
+            &:hover { color: $sand; }
         }
-    }
 
-    #site-logo {
-        position: absolute;
-        top: 62px;
-        left: 50%;
-        transform: translateX(-50%);
-        
-        a {
-            transition: top 0.3s ease;
-            position: relative;
-            top: 0;
+        .header__icons {
+            .icon {
+                width: 3rem;
+                height: 3rem;
+                color: $white;
 
-            &:hover { top: -5px; }
-        }
-    }
-
-    #main-navbar {
-        padding-top: 15px;
-        
-        ul.navbar {
-            margin: 0;
-            padding: 0 20px;
-            list-style-type: none;
-            display: flex;
-            justify-content: space-between;
-
-            @media( min-width: $screen-sm-min ) { padding: 0 70px; }
-
-            > li {
-                &.dropdown {
-                    position: relative;
-
-                    > a {
-                        display: flex;
-                        align-items: center;
-
-                        &:after {
-                            transition: border-color 0.3s ease;
-                            display: inline-block;
-                            transform: rotate(135deg) translateY(2px);
-                            vertical-align: middle;
-                            width: 6px;
-                            height: 6px;
-                            margin-left: 14px;
-                            border-style: solid;
-                            border-color: $white;
-                            border-width: 1px 1px 0 0;
-                            content: "";
-                            color: $white;
-                        }
-                    }
-
-                    &:hover {
-                        ul.dropdown {
-                            display: block;
-                            opacity: 1;
-                        }
-                    }
-
-                    ul.dropdown {
-                        transition: opacity 0.3s ease, display 0.3s ease;
-                        position: absolute;
-                        display: none;
-                        opacity: 0;
-                        min-width: 150px;
-                        margin: 0;
-                        padding: 0;
-                        list-style-type: none;
-                        background-color: $brownishOrange;
-
-                        li {
-                            a {
-                                transition: background-color 0.3s ease, color 0.3s ease;
-                                display: block;
-                                padding: 0 15px;
-                                background-color: $brownishOrange;
-                                line-height: 2.3;
-
-                                &:hover {
-                                    background-color: $sand;
-                                    color: lighten( $black, 5% );
-                                }
-                            }
-                        }
-                    }
+                &-search {
+                    width: 2rem;
+                    height: 2rem;
                 }
+            }
 
-                a {
-                    transition: color 0.3s ease;
-                    display: block;
-                    line-height: 2.5;
-                    font-size: 15px;
+            .link:hover .icon { color: $sand; }
+        }
+
+        .header__submenu {
+            color: $murkyGreen;
+            li a {
+                &:hover {
+                    background-color: $brownishOrange;
                     color: $white;
-
-                    &:hover {
-                        color: $sand;
-                        &:after { border-color: $sand; }
-                    }
                 }
             }
         }
+    }
+}
+
+#Details-menu-drawer-container {
+    .icon.icon-hamburger { color: $white; }
+
+    .header__icon--menu span {
+        position: relative;
+        z-index: 5;
+    }
+    
+    #menu-drawer {
+        top: 0;
+
+        .menu-drawer__submenu { top: 70px; }
     }
 }

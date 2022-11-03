@@ -1,37 +1,15 @@
-#wrapper-footer {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 55px 50px 40px;
-    background-color: $sand;
-    font-size: 15px;
-    color: $murkyGreen;
-
-    @media( min-width: $screen-sm-min ) { padding: 75px 40px 60px; }
-
-    .container {
-        position: static;
-        text-align: center;
+#shopify-section-footer .footer {
+    .footer__content-top {
+        padding-bottom: 0;
     }
 
-    img {
-        width: 60px;
-        margin-bottom: 20px;
-        
-        @media( min-width: $screen-md-min ) {
-            position: absolute;
-            top: 50%;
-            right: 35px;
-            transform: translateY(-50%);
-            width: 85px;
-            margin-bottom: 0;
-        }
-        
-        @media( min-width: $screen-lg-min ) {
-            right: 74px;
-            width: 104px;
+    .footer__content-bottom {
+        border-top: 0;
+        padding-top: 0;
+
+        .footer__column--info {
+            padding-top: 0;
+            .footer__copyright { margin-top: 0; }
         }
     }
 

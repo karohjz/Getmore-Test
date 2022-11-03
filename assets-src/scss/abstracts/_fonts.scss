@@ -1,21 +1,21 @@
 // Font Awesome 5
 
-$fa-font-path: '../fonts';
+$fa-font-path: '';
 
-@import '@fortawesome/fontawesome-free/scss/fontawesome';
-@import '@fortawesome/fontawesome-free/scss/solid';
-@import '@fortawesome/fontawesome-free/scss/regular';
-@import '@fortawesome/fontawesome-free/scss/brands';
+// @import '@fortawesome/fontawesome-free/scss/fontawesome';
+// @import '@fortawesome/fontawesome-free/scss/solid';
+// @import '@fortawesome/fontawesome-free/scss/regular';
+// @import '@fortawesome/fontawesome-free/scss/brands';
 // @import '@fortawesome/fontawesome-free/scss/v4-shims';
 
-@font-face {
-	font-family: 'apercuregular';
-	src: url('../fonts/apercu-webfont.eot');
-	src: url('../fonts/apercu-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/apercu-webfont.woff2') format('woff2'),
-		url('../fonts/apercu-webfont.woff') format('woff'),
-		url('../fonts/apercu-webfont.ttf') format('truetype'),
-		url('../fonts/apercu-webfont.svg#apercuregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+// @font-face {
+// 	font-family: 'apercuregular';
+// 	src: url( $fa-font-path + 'apercu-webfont.eot');
+// 	src: url( $fa-font-path + 'apercu-webfont.eot?#iefix') format('embedded-opentype'),
+// 		url( $fa-font-path + 'apercu-webfont.woff2') format('woff2'),
+// 		url( $fa-font-path + 'apercu-webfont.woff') format('woff'),
+// 		url( $fa-font-path + 'apercu-webfont.ttf') format('truetype'),
+// 		url( $fa-font-path + 'apercu-webfont.svg#apercuregular') format('svg');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
